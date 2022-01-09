@@ -1,5 +1,6 @@
 # Analysis of LiDAR Images with the Health Deprivation Index
 ![alt text](LIDAR_41456.png)
+
 LiDAR (light detection and ranging) is a modern technique for creating high-resolution ground 
 elevation models. It is frequently used in a variety of fields, including geography and forestry. 
 The aim of the deprivation index is to characterize and highlight deprivation at the small-area level, 
@@ -25,7 +26,7 @@ Transfer learning is a machine learning method that focuses on storing and trans
 learned while addressing one problem to a different but related problem, which is commonly used 
 in convolutional neural network (CNN) models. Three models were trained and assessed in this study using R2 score and MSE (mean squared error). The first model is a CNN with a VGG16 base model. The second model is a CNN using a ResNet50V2 base model. Only LiDAR imagery is supplied into these two models. A multimodal learning model is the final model. Multimodal learning necessitates the collection of data from a variety of sources. To improve the model's predictive potential, unstructured data such as pthotographs are merged with structured data. The article in this repository has further information about the model architectures and evaluation. 
 
-Colons can be used to align columns.
+
 
 | Performance Metric     | Image only VGG16          | Image only ResNet50V2  | Multimodal Learning |
 | ------------- |:-------------:| -----:| -------:|
@@ -33,7 +34,7 @@ Colons can be used to align columns.
 | MSE     | 0.446      |  0.418 | 0.367 |
 
 
-
+The performance metric table clearly demonstrates that multimodal learning outperforms the other two models.
 
 
 3. Visualization using Grad-CAM
